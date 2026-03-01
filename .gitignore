@@ -41,4 +41,6 @@ Thumbs.db
 *.log
 .env
 config.local.json
+
+
 docs

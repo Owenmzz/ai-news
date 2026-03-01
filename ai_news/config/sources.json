@@ -1,0 +1,240 @@
+{
+  "global": {
+    "request_timeout": 20
+  },
+  "sources": [
+    {
+      "id": "smol_rss",
+      "type": "rss",
+      "enabled": true,
+      "params": {
+        "urls": [
+          "https://news.smol.ai/rss.xml"
+        ]
+      }
+    },
+    {
+      "id": "techcrunch_ai_rss",
+      "type": "rss",
+      "enabled": true,
+      "params": {
+        "urls": [
+          "https://techcrunch.com/category/artificial-intelligence/feed/"
+        ]
+      }
+    },
+    {
+      "id": "openai_blog_rss",
+      "type": "rss",
+      "enabled": true,
+      "params": {
+        "urls": [
+          "https://openai.com/blog/rss.xml",
+          "https://www.openai.com/blog/rss.xml",
+          "https://openai.com/news/rss.xml"
+        ]
+      }
+    },
+    {
+      "id": "synced_review_rss",
+      "type": "rss",
+      "enabled": true,
+      "params": {
+        "urls": [
+          "https://syncedreview.com/feed/"
+        ]
+      }
+    },
+    {
+      "id": "arxiv_cs_ai_rss",
+      "type": "rss",
+      "enabled": true,
+      "params": {
+        "urls": [
+          "https://rss.arxiv.org/rss/cs.AI"
+        ]
+      }
+    },
+    {
+      "id": "github_trending_main",
+      "type": "github_trending",
+      "enabled": true,
+      "params": {
+        "languages": [
+          "python",
+          "cpp",
+          "jupyter-notebook"
+        ],
+        "since": "daily"
+      }
+    },
+    {
+      "id": "hn_ai",
+      "type": "hackernews",
+      "enabled": true,
+      "params": {
+        "feeds": [
+          "top",
+          "best",
+          "new"
+        ],
+        "timeout": 8,
+        "max_per_feed": 15,
+        "require_keyword_match": true,
+        "keywords": [
+          "ai",
+          "llm",
+          "gpt",
+          "agent",
+          "anthropic",
+          "openai",
+          "copilot",
+          "cursor",
+          "codex",
+          "code assistant",
+          "programming"
+        ]
+      }
+    },
+    {
+      "id": "arxiv_cs_cl_rss",
+      "type": "rss",
+      "enabled": true,
+      "params": {
+        "urls": [
+          "https://rss.arxiv.org/rss/cs.CL"
+        ]
+      }
+    },
+    {
+      "id": "arxiv_cs_cv_rss",
+      "type": "rss",
+      "enabled": true,
+      "params": {
+        "urls": [
+          "https://rss.arxiv.org/rss/cs.CV"
+        ]
+      }
+    },
+    {
+      "id": "arxiv_cs_lg_rss",
+      "type": "rss",
+      "enabled": true,
+      "params": {
+        "urls": [
+          "https://rss.arxiv.org/rss/cs.LG"
+        ]
+      }
+    },
+    {
+      "id": "google_ai_blog_rss",
+      "type": "rss",
+      "enabled": true,
+      "params": {
+        "urls": [
+          "https://blog.google/technology/ai/rss/"
+        ]
+      }
+    },
+    {
+      "id": "bair_blog_rss",
+      "type": "rss",
+      "enabled": true,
+      "params": {
+        "urls": [
+          "https://bair.berkeley.edu/blog/feed.xml"
+        ]
+      }
+    },
+    {
+      "id": "ars_ai_rss",
+      "type": "rss",
+      "enabled": true,
+      "params": {
+        "urls": [
+          "https://arstechnica.com/ai/feed/"
+        ]
+      }
+    },
+    {
+      "id": "ai_business_rss",
+      "type": "rss",
+      "enabled": true,
+      "params": {
+        "urls": [
+          "https://aibusiness.com/rss.xml"
+        ]
+      }
+    },
+    {
+      "id": "ai_trends_rss",
+      "type": "rss",
+      "enabled": true,
+      "params": {
+        "urls": [
+          "https://www.aitrends.com/feed/"
+        ]
+      }
+    },
+    {
+      "id": "36kr_rss",
+      "type": "rss",
+      "enabled": true,
+      "params": {
+        "urls": [
+          "https://www.36kr.com/feed"
+        ]
+      }
+    },
+    {
+      "id": "huxiu_rss",
+      "type": "rss",
+      "enabled": true,
+      "params": {
+        "urls": [
+          "https://www.huxiu.com/rss/0.xml"
+        ]
+      }
+    },
+    {
+      "id": "leiphone_rss",
+      "type": "rss",
+      "enabled": true,
+      "params": {
+        "urls": [
+          "https://www.leiphone.com/feed"
+        ]
+      }
+    },
+    {
+      "id": "qbitai_rss",
+      "type": "rss",
+      "enabled": true,
+      "params": {
+        "urls": [
+          "https://www.qbitai.com/feed"
+        ]
+      }
+    },
+    {
+      "id": "infoq_cn_rss",
+      "type": "rss",
+      "enabled": true,
+      "params": {
+        "urls": [
+          "https://www.infoq.cn/feed"
+        ]
+      }
+    },
+    {
+      "id": "juejin_rss",
+      "type": "rss",
+      "enabled": true,
+      "params": {
+        "urls": [
+          "https://juejin.cn/rss"
+        ]
+      }
+    }
+  ]
+}
